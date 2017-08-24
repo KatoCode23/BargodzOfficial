@@ -6,27 +6,29 @@ app.controller('myController', function($scope){
 $scope.bargodz = [
    {
       name: 'Also Fit',
-      img1: '.jpg'
+      img1: 'alsoFit.jpg'
    },
    {
       name: 'D',
-      img1: '.jpg'
+      img1: 'd.jpg'
    },
    {
       name: 'Ray',
-      img1: '.jpg'
+      img1: 'ray.jpg'
    },
    {
       name: 'Dio',
-      img1: '.jpg'
+      img1: 'dio2.jpg'
    },
    {
       name: 'Sky',
-      img1: '.jpg'
+      img1: 'sky.jpg'
 
    },
    {
       name: 'Lil Mann',
-      img1: '.jpg'
+      img1: 'lilMan.jpg'
    }
+]
+
 });

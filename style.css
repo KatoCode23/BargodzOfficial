@@ -20,10 +20,10 @@ p{
 
 .main-content{
   padding: 20px;
-  background-image: url(.JPG);
+  background-image: url(1.JPG);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   margin: 0 auto;
   text-align: center;
   width: 85%;
@@ -41,8 +41,38 @@ p{
   left: 0;
   padding: 10px;
   margin: 0 auto;
+  background-image: url(5.JPG);
+  background-position: center;
+  background-repeat: repeat-x;
+  background-size: contain;
 }
 
+.picture-container{
+  padding: 10px;
+  margin: 0 auto;
+  width: 100%;
+  background: white;
+  text-align: center;
+  display: block;
+  position: relative;
+  background-repeat: repeat;
+  background-position: center;
+  background-size: contain;
+  border: solid black 1px;
+}
+
+.picture{
+  height: 250px;
+  width: 250px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px;
+  image-orientation: from-image;
+}
 
 .fa-envelope, .fa-angle-double-down{
   display: block;
